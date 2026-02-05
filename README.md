@@ -1,7 +1,15 @@
 ## 出力例
 
 ### 商品別売上 Top10（横棒グラフ）
-![product_top10](assets/product_top10.png)
+主要商品の売上合計を比較し、売上上位10商品を可視化します。  
+商品別の傾向把握や重点商品の確認を想定しています。
+
+<img src="assets/product_top10.png" width="700">
+
+---
 
 ### 月次売上推移
-![sales_trend](assets/sales_trend.png)
+月ごとの売上合計を集計し、全体の売上推移を可視化します。  
+時系列での成長傾向や季節性の確認を想定しています。
+
+<img src="assets/sales_trend.png" width="700">
