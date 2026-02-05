@@ -8,6 +8,18 @@ from dataclasses import dataclass
 import pandas as pd
 import matplotlib.pyplot as plt
 
+import matplotlib as mpl
+
+# 日本語フォント（MacならだいたいこれでOK）
+for f in ["Hiragino Sans", "Hiragino Kaku Gothic ProN", "AppleGothic"]:
+    try:
+        mpl.rcParams["font.family"] = f
+        break
+    except Exception:
+        pass
+
+mpl.rcParams["axes.unicode_minus"] = False
+
 
 REQUIRED_COLS = {"date", "product", "amount"}
 
